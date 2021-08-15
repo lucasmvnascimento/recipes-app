@@ -1,23 +1,24 @@
 # Projeto Recipes App
 
-Projeto desenvolvido durante aprendizado na Trybe que envolve a criação de uma aplicação web Front-End de consulta e acompanhamento de receitas de comidas e bebidas. Desenvolvido juntamente com os colegas [Digo Castro](https://github.com/Digo-Castro)
+Projeto desenvolvido durante aprendizado na Trybe que envolve a criação de uma aplicação web Front-End de consulta e acompanhamento de receitas de comidas e bebidas. Desenvolvido juntamente com os colegas [Digo Castro](https://github.com/Digo-Castro), [Felipe França](https://github.com/devFelipeFranca) e [Wellington Cypriano](https://github.com/w-cypriano)
 
 ## Desenvolvimento
 
-Esta aplicação foi desenvolvida com framework React.js, utilizando Context API e Hooks para gerenciamento de estados. Além disso, possui filtros para seleção de dados desejados na busca das informações. Consome a API `https://swapi-trybe.herokuapp.com/api/planets`.
+Esta aplicação foi desenvolvida com framework React.js, utilizando Redux para gerenciamento de estados e gerenciamento de rotas através do React Router. Consiste em um aplicativo de receitas, onde é possível consultar receitas de comidas e bebidas, assim como acompanhamento durante realização de uma receita através de checklist do preparo. Salva as receitas feitas de acordo com o usuário que entrou no sistema. Consome as APIs dos sites `https://www.thecocktaildb.com/` e `https://www.themealdb.com/`.
 
 ### Tecnologias
 
 - React.js
-- Context API e Hooks
+- Redux
+- React Router
 
 ## Rodando a Aplicação
 
 1. Clone o repositório
 
-- `https://github.com/lucasmvnascimento/star-wars-datatable.git`.
+- `https://github.com/lucasmvnascimento/recipes-app.git`.
 - Entre na pasta do repositório que você acabou de clonar:
-  - `cd star-wars-datatable`
+  - `cd recipes-app`
 
 2. Instale as dependências
 
